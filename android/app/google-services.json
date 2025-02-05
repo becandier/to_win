@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1088954034562",
+    "project_id": "cmd-template",
+    "storage_bucket": "cmd-template.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088954034562:android:704c1dff25e7868094c79b",
+        "android_client_info": {
+          "package_name": "com.becandier.towin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCguZqDRGSit8XSX2UbLv6thWZuF75IzgE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
