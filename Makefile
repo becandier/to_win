@@ -1,7 +1,8 @@
 # Makefile
-
-API_ISSUER = 58613e41-3496-4c2a-8f60-2886cdde370f
-KEY_ID = RSASU5T5YV
+ifneq (,$(wildcard .env))
+  include .env
+  export
+endif
 
 # ANSI code for blue text
 BLUE = \033[0;34m
