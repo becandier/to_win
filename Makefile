@@ -40,5 +40,3 @@ debug:
 	xcrun altool --upload-app --type ios -f build/ios/ipa/*.ipa --apiKey $(KEY_ID) --apiIssuer $(API_ISSUER)
 	flutter build apk
 	
-
-# xcrun altool --upload-app --type ios -f build/ios/ipa/*.ipa --apiKey Q6WPLKL8NJ --apiIssuer 7d118c9f-e508-4d2a-8445-f774b6f6c38e
