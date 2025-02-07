@@ -11,17 +11,17 @@
 part of 'app_router.dart';
 
 /// generated route for
-/// [ExampleHomePage]
-class ExampleHomeRoute extends PageRouteInfo<void> {
-  const ExampleHomeRoute({List<PageRouteInfo>? children})
-    : super(ExampleHomeRoute.name, initialChildren: children);
+/// [HomePage]
+class HomeRoute extends PageRouteInfo<void> {
+  const HomeRoute({List<PageRouteInfo>? children})
+    : super(HomeRoute.name, initialChildren: children);
 
-  static const String name = 'ExampleHomeRoute';
+  static const String name = 'HomeRoute';
 
   static PageInfo page = PageInfo(
     name,
     builder: (data) {
-      return const ExampleHomePage();
+      return const HomePage();
     },
   );
 }

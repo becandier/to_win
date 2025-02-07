@@ -22,7 +22,7 @@ class AppRouter extends RootStackRouter {
                 AutoRoute(
                   path: 'home',
                   initial: true,
-                  page: ExampleHomeRoute.page,
+                  page: HomeRoute.page,
                 ),
               ],
             ),
@@ -33,7 +33,7 @@ class AppRouter extends RootStackRouter {
                 AutoRoute(
                   path: 'settings',
                   initial: true,
-                  page: ExampleHomeRoute.page,
+                  page: HomeRoute.page,
                 ),
               ],
             ),

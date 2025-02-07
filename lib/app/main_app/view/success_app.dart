@@ -56,6 +56,7 @@ class _SuccessAppState extends State<_SuccessApp> with WidgetsBindingObserver {
         localizationsDelegates: AppLocalizations.localizationsDelegates,
         supportedLocales: AppLocalizations.supportedLocales,
         locale: _deviceLocale,
+        theme: AppTheme().mainTheme,
         builder: (context, child) {
           return UpgradeAlert(
             upgrader: Upgrader(

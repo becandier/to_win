@@ -93,6 +93,12 @@ abstract class AppLocalizations {
     Locale('ru')
   ];
 
+  /// No description provided for @appTitle.
+  ///
+  /// In ru, this message translates to:
+  /// **'To Win 🏆'**
+  String get appTitle;
+
   /// No description provided for @success.
   ///
   /// In ru, this message translates to:

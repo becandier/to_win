@@ -1,6 +1,11 @@
-# templatecmd
+# ToWin
 
-A new Flutter project.
+Todos app.
+
+Layer:
+ - [Data] - Done
+ - [App] - In progress
+ - [Presentation] - In progress
 
 ## Getting Started
 

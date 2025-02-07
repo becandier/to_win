@@ -1,7 +1,7 @@
 # Makefile
 
-API_ISSUER = 7d118c9f-e508-4d2a-8445-f774b6f6c38e
-KEY_ID = Q6WPLKL8NJ
+API_ISSUER = 58613e41-3496-4c2a-8f60-2886cdde370f
+KEY_ID = RSASU5T5YV
 
 # ANSI code for blue text
 BLUE = \033[0;34m
@@ -12,6 +12,10 @@ gen:
 
 loc:
 	flutter gen-l10n
+
+upload:
+	@echo "$(BLUE)Проверьте включен ли у вас VPN и актуален ли код версии!$(NC)"
+	xcrun altool --upload-app --type ios -f build/ios/ipa/*.ipa --apiKey $(KEY_ID) --apiIssuer $(API_ISSUER)
 
 testfl:
 	@echo "$(BLUE)Проверьте включен ли у вас VPN и актуален ли код версии!$(NC)"

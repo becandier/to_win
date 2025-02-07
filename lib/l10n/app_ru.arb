@@ -1,5 +1,6 @@
 {
     "@@locale": "ru",
+    "appTitle": "To Win 🏆",
     "success": "Успешно",
     "error": "Ошибка",
     "loading": "Загрузка",
